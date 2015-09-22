@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="nq_picco:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="nq_picco-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="nq_picco:war exploded" />
+    </root>
+  </artifact>
+</component>

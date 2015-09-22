@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document By NQ-WenLon*/
+@font-face {
+font-family:'netto';
+src:url(font/netto.ttf);
+font-style:normal;
+font-weight:normal
+}
+@font-face {
+font-family:'nettobold';
+src:url(font/netto_bold.ttf);
+font-style:normal;
+font-weight:normal
+}
+@font-face {
+font-family:'nettolight';
+src:url(font/netto_light.ttf);
+font-style:normal;
+font-weight:normal
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+textarea {
+	resize:none;
+}
+a {
+	text-decoration:none;
+}
+.titile{
+	font-family: Arial;
+	font-size:14px;
+	line-height:20px;
+}
+.text_k {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    line-height: 30px;
+    font-size: 18px;
+    color: #333333;
+    width: 154px;
+}
+.text_k:focus{
+    border-bottom:2px solid #3399ff;
+    outline:none;
+    color:#333333;
+}
+.text{
+	padding:0px;
+	margin:0px;
+	border:none;
+	border-bottom:2px solid #ccc;
+	line-height:30px;
+	height:30px;
+	font-size:18px;
+	color:#333333;
+	width:100%;
+}
+.code{
+	width:100px;
+	float:left;
+	margin-right:20px;
+}
+.text.error{
+	border-bottom:2px solid #ff0033;
+}
+.error_tips{
+	position:absolute;
+	bottom:-20px;
+	height:20px;
+	line-height:20px;
+	color:#ff0033;
+	font-size:12px;
+	left:0px;
+}
+.text:focus{
+	border-bottom:2px solid #3399ff;
+	outline:none;
+	color:#333333;
+}
+input::-webkit-input-placeholder { 
+color: #ccc;
+}
+textarea::-webkit-input-placeholder { 
+color: #ccc;
+}
+.send{
+	padding:0px;
+	margin:0px;
+	border:none;
+	line-height:30px;
+	font-size:20px;
+	color:#cccccc;
+	float:right;
+	background:#fff;
+	cursor:pointer;
+}
+.send_ok{
+	color:#3399ff;
+}
+.send:hover{text-decoration:underline;}
+.text_w{margin-bottom:20px; position:relative;}
+.text_w p{overflow:hidden;}
+.text_w em{position:absolute; right:0px; top:0px; height:30px; line-height:30px; font-style:normal;color: #ccc; font-size:18px;}
+.email_ok{
+	height:350px;
+	width:100%;
+	background:url(../img/email_ok.png) no-repeat center 100px;
+	text-align:center;
+}
+.email_ok p{padding-top:270px; color:#333; font-size:48px;}
